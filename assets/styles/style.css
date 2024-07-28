@@ -134,6 +134,8 @@ body {
         font-size: 90%;
     }#rememberForgot {
         padding-left: 2rem;
+    }#btnLogar {
+        background-color: #FFFFFF;
     }
 }
 
