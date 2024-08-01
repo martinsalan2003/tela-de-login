@@ -111,13 +111,12 @@ body {
 #btnLogar:hover {
     opacity: 0.5;
 }
-
 /* tela de cadastrar */
 #register {
     justify-content: center;
     align-items: center;
-    gap: 10px;
-    padding: 10px;
+    gap: 15px;
+    padding: 15px;
     display: flex;
 }
 #register a {
@@ -139,7 +138,11 @@ body {
     } #register a {
         color:#00638d;
         text-decoration-line:underline;
-    } #rememberForgot a {
+    } 
+    #register {
+        padding: 20px;
+    } 
+    #rememberForgot a {
         color:#00638d;
         text-decoration-line:underline;
     }
