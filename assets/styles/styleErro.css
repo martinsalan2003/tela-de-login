@@ -68,6 +68,11 @@ hr {
     font-size: 15vh;
   }.texto h1 {
     font-size: 4vh;
+  }.texto p {
+    font-size: 3vh;
+  }
+  hr {
+    width: 80vw;
   }
 
 }
