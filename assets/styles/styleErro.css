@@ -69,10 +69,10 @@ hr {
   }.texto h1 {
     font-size: 4vh;
   }.texto p {
-    font-size: 3vh;
+    font-size: 4vh;
   }
   hr {
-    width: 80vw;
+    width: 100vw;
   }
 
 }
