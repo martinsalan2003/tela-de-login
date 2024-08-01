@@ -54,3 +54,16 @@ hr {
   font-family: "Rubik", sans-serif;
   font-size: 25vh;
 }
+
+/* mobile */
+
+@media (width < 40rem) {
+  html{
+    font-size: 80%;
+  }.texto {
+    position: absolute;
+  }.imagen {
+    opacity: 0;
+  }
+
+}

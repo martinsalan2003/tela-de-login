@@ -88,13 +88,11 @@ body {
     color:#00638d ;
     text-decoration-line:underline;
 }
-
 /* botão de logar */
 #btnSubmit {
     display: flex;
     justify-content: center;
-    align-items: center;
-    
+    align-items: center;  
 }
 #btnLogar {
     font-family: "Rubik", sans-serif;
@@ -106,11 +104,9 @@ body {
     font-weight: 500;
     cursor: pointer;
 }
-a{
-    
+#btnLogar a{
     color: #717e64;
     text-decoration: none;
-  
 }
 #btnLogar:hover {
     opacity: 0.5;
@@ -140,6 +136,12 @@ a{
         padding-left: 2rem;
     }#btnLogar {
         background-color: #FFFFFF;
+    } #register a {
+        color:#00638d;
+        text-decoration-line:underline;
+    } #rememberForgot a {
+        color:#00638d;
+        text-decoration-line:underline;
     }
 }
 
