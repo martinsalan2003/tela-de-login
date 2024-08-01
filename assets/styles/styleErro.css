@@ -46,7 +46,7 @@ hr {
   color: #418850d5;
 }
 .texto {
-    font-size: 1.5rem;
+  font-size: 1.5rem;
   color: #418850d5;
 }
 .texto span {
@@ -59,11 +59,15 @@ hr {
 
 @media (width < 40rem) {
   html{
-    font-size: 60%;
+    font-size: 40%;
   }.texto {
     position: absolute;
   }.imagen {
     opacity: 0;
+  }.texto span {
+    font-size: 15vh;
+  }.texto h1 {
+    font-size: 4vh;
   }
 
 }
