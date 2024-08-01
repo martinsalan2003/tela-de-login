@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+.containerErro {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* lado esqeurdo */
+.imagen {
+  height: 70vh;
+  width: 40vw;
+}
+
+.imagen img {
+  height: 70vh;
+  width: 40vw;
+}
+
+/* lado direito */
+.texto {
+  height: 70vh;
+  width: 40vw;
+  gap: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+hr {
+  width: 25vw;
+  color: #418850d5;
+}
+.texto h1 {
+  color: #418850d5;
+}
+.texto {
+    font-size: 1.5rem;
+  color: #418850d5;
+}
+.texto span {
+  color: #1b4c3a;
+  font-family: "Rubik", sans-serif;
+  font-size: 25vh;
+}

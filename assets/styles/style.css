@@ -27,7 +27,7 @@ body {
     color: #ffffff;
     background-color: #717e64;
     border-radius: 15px;
-    height: 300px;
+    height: 330px;
     width: 300px;
 }
 .headerBox {
@@ -102,11 +102,15 @@ body {
     height: 3rem;
     border-radius: 10px;
     border: none;
-    color:#001c1e ;
-    color: #717e64;
     font-size: 14px;
     font-weight: 500;
     cursor: pointer;
+}
+a{
+    
+    color: #717e64;
+    text-decoration: none;
+  
 }
 #btnLogar:hover {
     opacity: 0.5;
