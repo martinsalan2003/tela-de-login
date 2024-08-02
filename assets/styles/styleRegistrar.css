@@ -65,12 +65,13 @@ body {
     color: #ffffff;
 }
 .segundo input{
-    width: 55.6vh;
+    width: 175%;
     height:2em;
     border-radius: 5px;
     border: none;
     text-align: center;
 }
+
 /* senha e confirmação */
 .terceiro {
     padding:1em;
